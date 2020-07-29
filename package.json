@@ -1,0 +1,29 @@
+{
+  "name": "2-nodeServers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "2-nodeServers": "www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+    "build": "cross-env NODE_ENV=pro nodemon ./bin/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.2",
+    "enhanced-resolve": "^4.3.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "redis": "^3.0.2",
+    "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
