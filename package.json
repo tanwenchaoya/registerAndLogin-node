@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ajv": "^6.12.2",
+    "ajv": "^6.12.3",
     "enhanced-resolve": "^4.3.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
